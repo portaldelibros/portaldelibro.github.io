@@ -21,7 +21,7 @@ function cerrarSesion() {
     localStorage.removeItem('usuarioAutenticado');
     localStorage.removeItem('nombreUsuario');
     // Redirigir al usuario a la página de inicio de sesión
-    window.location.href = 'libros.html';
+    window.location.href = 'index.html';
 }
 
 // Función para inicializar la autenticación en todas las páginas
